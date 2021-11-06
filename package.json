@@ -1,0 +1,26 @@
+{
+  "name": "uuid-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx browserify js/script.js -o js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meikmenzel/uuid-generator.git"
+  },
+  "author": "Meik Menzel <meikmenzel@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meikmenzel/uuid-generator/issues"
+  },
+  "homepage": "https://github.com/meikmenzel/uuid-generator#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.1"
+  }
+}
